@@ -24,11 +24,11 @@ pipeline {
         steps { 
                 echo 'push to artifactory'
         }
+}
         stage('Deploy'){
         steps { 
                 echo 'Deploying'
         }
     }
-}
 }
 }
